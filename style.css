@@ -1,0 +1,79 @@
+h4{
+	width: 80%;
+}
+
+.oneline{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	
+
+}
+
+
+.main{
+	background-color: hsl(0, 100%, 100%);
+	margin: auto;
+	width: 80vw;
+	position: relative;
+	margin-top: -30vw;
+	padding: 5vw;
+	margin-bottom: 10vw;
+	border-radius: 5vw;
+	
+	
+}
+
+body{
+	margin: 0;
+	background-color: hsl(275, 100%, 97%);
+}
+
+p{
+	font-size: 4.1vw;
+	font-weight: 400;
+	display: none;
+}
+
+h4{
+	font-size: 5vw;
+	font-weight: 600;
+}
+p,h4{
+	font-family: Work Sans;
+}
+
+h2{
+	font-size: 7vw;
+	font-weight: 700;
+}
+
+.faq{
+	display: flex;
+}
+
+.faq>img{
+	width: 10%;
+	
+}
+
+.oneline>img{
+	width: 10%;
+}
+@media screen and (min-width:1440px){
+	.main{
+		width: 50vw;
+		margin-top: -10vw;
+	}
+
+	h4{
+		font-size: 1.19vw;
+	}
+	p{	
+		padding-left: 1.3vw;
+		font-size: 1.05vw;
+	}
+	h2{
+		font-size:4vw;
+	}
+}
